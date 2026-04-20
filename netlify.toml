@@ -1,0 +1,29 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+[[headers]]
+  for = "/celestial-sw.js"
+  [headers.values]
+    Service-Worker-Allowed = "/"
+    Cache-Control          = "no-cache, no-store, must-revalidate"
+    Content-Type           = "application/javascript"
+
+[[headers]]
+  for = "/celestial/*.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+    Content-Type  = "application/javascript"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin   = "*"
+    Access-Control-Allow-Methods  = "GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS"
+    Access-Control-Allow-Headers  = "*"
+    Access-Control-Expose-Headers = "*"
