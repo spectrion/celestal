@@ -1,4 +1,4 @@
-![celestal](https://spectrion.github.io/assets/IMG_4377.png)
+![celestal](https://spectrion.github.io/assets/IMG_4378.png)
 
 <h1 align="center">Celestal </h1>
 
