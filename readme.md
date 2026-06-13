@@ -18,4 +18,4 @@ Welcome to the official Celestal repo, where you can unleash the full ability of
 
 ## How to use
 
-To use celestal in your own proxy your first going to want to go to https://netlify.com and come back here and download everything as a .zip file. now go back fo netlify and deploy from that file. than your gonna want to make a frontend that links thr 2 togeather and your done!
+To use celestal in your own proxy your first going to want to go to a nodejs hoster or self host it. than you want to create a frontend that corresponds to the right functions. a frontend template will be avalible soon
