@@ -1,4 +1,4 @@
-![celestal](https://ik.imagekit.io/l7uslhlci/IMG_4377.png)
+![celestal](https://spectrion.github.io/IMG_4377.png)
 
 <h1 align="center">Celestal </h1>
 
